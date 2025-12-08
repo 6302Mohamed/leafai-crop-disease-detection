@@ -38,7 +38,7 @@ LeafAI uses lightweight convolutional neural networks optimized for mobile infer
 - Training environment: **Python / TensorFlow / Keras on Google Colab**
 - Data pipeline: **NumPy, Pandas**,
 - Visualization and evaluation: **Matplotlib, Seaborn**
-- Deeplearning Algorithm:MobileVNet
+- Deep learning architecture: MobileNet (transfer learning)
 - Export pipeline: TensorFlow Lite conversion
 - Inference: On-device using NNAPI for performance
 
@@ -87,4 +87,14 @@ Models are trained from curated datasets, validated for robustness against light
 | ![](docs/screenshots/result_01_disease.png) |
 
 ## Project Structure
+
+```text
+leafai-crop-disease-detection/
+├─Docs/ Screenshots/     # UI screenshots used in the README
+├─ app/                   # Android Studio project
+├─ README.md              # Project documentation
+├─ build.gradle.kts
+├─ settings.gradle.kts
+└─ ...
+
 
