@@ -90,9 +90,9 @@ Models are trained from curated datasets, validated for robustness against light
 
 ```text
 leafai-crop-disease-detection/
-├─Docs/ Screenshots/     # UI screenshots used in the README
-├─ app/                   # Android Studio project
-├─ README.md              # Project documentation
+├─Docs/ Screenshots/     
+├─ app/                  
+├─ README.md             
 ├─ build.gradle.kts
 ├─ settings.gradle.kts
 └─ ...
