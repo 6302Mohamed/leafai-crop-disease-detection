@@ -1,0 +1,24 @@
+<!-- res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.LeafAI" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color changed from purple to green -->
+        <item name="colorPrimary">#4CAF50</item> <!-- Green -->
+        <item name="colorPrimaryVariant">#388E3C</item> <!-- Darker green -->
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Optional: update secondary to match too -->
+        <item name="colorSecondary">#4CAF50</item>
+        <item name="colorSecondaryVariant">#388E3C</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <style name="Theme.CameraX.Transparent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+</resources>

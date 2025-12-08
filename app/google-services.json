@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "981263494916",
+    "project_id": "leaf-ai-2e751",
+    "storage_bucket": "leaf-ai-2e751.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981263494916:android:c64544356b814740056a51",
+        "android_client_info": {
+          "package_name": "com.example.leafai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981263494916-5mv6ethf91rsc1d6vrrulgq4e94783g6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.leafai",
+            "certificate_hash": "08b7a660a37767be87f0e627c8638bc58fbd24b7"
+          }
+        },
+        {
+          "client_id": "981263494916-bcdujsa7clmo6tm9vh1bjn8jb6rjs2nf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKPxmjYQKGOl32anGTwvpR4yL38havg9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981263494916-bcdujsa7clmo6tm9vh1bjn8jb6rjs2nf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
