@@ -46,7 +46,9 @@ Models are trained from curated datasets, validated for robustness against light
 
 ---
 
+
 ## Technical Stack
+
 
 ### Mobile Application
 - Kotlin (Android)
@@ -62,6 +64,27 @@ Models are trained from curated datasets, validated for robustness against light
 - Data augmentation for generalization
 
 ---
+
+## Screenshots
+
+### Onboarding Flow
+| Splash | Country | Region | Crop |
+|--------|---------|--------|------|
+| ![](docs/screenshots/onboarding_01_splash.png) | ![](docs/screenshots/onboarding_02_country.png) | ![](docs/screenshots/onboarding_03_region.png) | ![](docs/screenshots/onboarding_04_crop.png) |
+
+---
+
+### Detection Workflow
+| Main Screen | Photo Selection | Loaded Image | Weather Context |
+|------------|----------------|--------------|----------------|
+| ![](docs/screenshots/detect_01_main.png) | ![](docs/screenshots/detect_02_gallery.png) | ![](docs/screenshots/detect_03_loaded.png) | ![](docs/screenshots/detect_04_weather.png) |
+
+---
+
+### Disease Result Output
+| Full Detection Result |
+|----------------------|
+| ![](docs/screenshots/result_01_disease.png) |
 
 ## Project Structure
 
