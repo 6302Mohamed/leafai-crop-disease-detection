@@ -39,6 +39,7 @@ LeafAI uses lightweight convolutional neural networks optimized for mobile infer
 - Data pipeline: **NumPy, Pandas**,
 - Visualization and evaluation: **Matplotlib, Seaborn**
 - Deep learning architecture: MobileNet (transfer learning)
+
 - Export pipeline: TensorFlow Lite conversion
 - Inference: On-device using NNAPI for performance
 
@@ -109,14 +110,13 @@ Models are exported to `.tflite` format for fast on-device inference via NNAPI a
 
 
 ## Project Structure
+## Project Structure
 
 ```text
 leafai-crop-disease-detection/
-├─Docs/ Screenshots/     
-├─ app/                  
-├─ README.md             
+├─ app/                     # Android Studio project source
+├─ Docs/ Screenshots/       # UI screenshots used in the README
+├─ README.md                # Project documentation
 ├─ build.gradle.kts
 ├─ settings.gradle.kts
 └─ ...
-
-
