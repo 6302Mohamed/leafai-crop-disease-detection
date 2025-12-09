@@ -86,6 +86,28 @@ Models are trained from curated datasets, validated for robustness against light
 |----------------------|
 | ![](docs/screenshots/result_01_disease.png) |
 
+## Dataset Summary and Model Performance
+
+LeafAI uses curated agricultural image datasets from multiple public sources. Models were trained separately per crop and optimized for mobile inference.
+
+| Crop   | Classes | Dataset Source | Validation Accuracy | Notes |
+|--------|--------|----------------|---------------------|------|
+| Cotton | 4 (Bacterial Blight, Curl Virus, Fusarium Wilt, Healthy) | Kaggle – Cotton Leaf Disease | ~98%                | Consistent performance due to clear class separation |
+| Tea | 8 (Algal Leaf Spot, Anthracnose, Bird Eye Spot, Brown Blight, Gray Blight, Healthy, Red Leaf Spot, White Spot) | Roboflow Public Dataset | ~95%                | High variability in lighting/angles improves robustness |
+| Coffee (Robusta) | 3 (Healthy, Coffee Real Spider Mite, Coffee Rust) | ReCoLe – DatasetNinja | ~95%                | Field images used; variations handled by augmentation |
+| Coffee (Arabica) | 5 (Healthy, Leaf Rusty, Miner, Phoma, Cercospora) | Mendeley Data – Arabica Leaf Images | ~94%                | Harder class boundaries; mild class imbalance handled |
+
+### Training Configuration
+- **Architecture**: MobileNet (transfer learning)
+- **Input size**: 224 × 224 RGB
+- **Environment**: Google Colab (GPU)
+- **Libraries**: TensorFlow, Keras, NumPy, Pandas, Matplotlib
+- **Data Augmentation**: rotation, brightness, zoom, horizontal/vertical flip
+- **Evaluation**: Accuracy, loss trending, confusion matrices
+
+Models are exported to `.tflite` format for fast on-device inference via NNAPI acceleration.
+
+
 ## Project Structure
 
 ```text
